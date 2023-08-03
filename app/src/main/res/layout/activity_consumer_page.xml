@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsumerPage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3F51B5"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title="Consumer Id: 000000"
+                app:titleTextColor="#ffff" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:background="@color/grey"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/consumerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consumerName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consumerCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consumerCity"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distributorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/distributorName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/consumerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ConsumerAddress"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/quota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:text="Quota"
+        android:textColor="#BD3127"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/gasQuota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/quota">
+
+
+        <ImageView
+            android:id="@+id/gas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+        <ImageView
+            android:id="@+id/gas2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+        <ImageView
+            android:id="@+id/gas3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3.8dp"
+
+            app:srcCompat="@drawable/gas_quota" />
+
+        <ImageView
+            android:id="@+id/gas4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3.8dp"
+            app:srcCompat="@drawable/gas_quota" />
+        <ImageView
+            android:id="@+id/gas5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="3.8dp"
+            app:srcCompat="@drawable/gas_quota" />
+        <ImageView
+            android:id="@+id/gas6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gasQuota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/gasQuota1"
+        >
+
+
+        <ImageView
+            android:id="@+id/gas7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+        <ImageView
+            android:id="@+id/gas8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+        <ImageView
+            android:id="@+id/gas9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3.8dp"
+
+            app:srcCompat="@drawable/gas_quota" />
+        <ImageView
+            android:id="@+id/gas10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+        <ImageView
+            android:id="@+id/gas11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="3.8dp"
+            app:srcCompat="@drawable/gas_quota" />
+        <ImageView
+            android:id="@+id/gas12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gas_quota"
+            android:padding="3.8dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/green"
+        android:padding="5dp"
+        android:text="Place Order"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/trackOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="150dp"
+        android:text="Track Order"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

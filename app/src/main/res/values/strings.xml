@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyLPG</string>
+    <string name="page_title">Consumer Login</string>
+    <string name="email_hint">Registered Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_btn">Sign in</string>
+    <string name="new_user_label">new user?</string>
+    <string name="forget_label">forget password?</string>
+    <string name="name_label">Name: </string>
+    <string name="consumer_name">Sk Akram</string>
+    <string name="address_label">Address: </string>
+    <string name="distributor_label">Distributor Login? click here</string>
+    <string name="distributor_page_title">Distributor Login</string>
+    <string name="new_user_title">Create Account</string>
+    <string name="new_user_email">Enter Email</string>
+    <string name="new_user_password">Set Password</string>
+    <string name="confirm_user_password">Confirm Password</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="consumer_input">Consumer No</string>
+    <string name="consumerName">"Name: "</string>
+    <string name="ConsumerCity">"City: "</string>
+    <string name="consumerCity">"City: "</string>
+    <string name="consumerQuota">Quota</string>
+    <string name="distributorName">"Name: "</string>
+    <string name="ConsumerAddress">"Address: "</string>
+    <string name="fullName"><![CDATA[<Full Name>]]></string>
+    <string name="city"><![CDATA[<City>]]></string>
+    <string name="address">address1,address2,address3</string>
+    <string name="heading">Consumer Info</string>
+    <string name="logo_des">App Logo</string>
+    <string name="distributorId">Distributor Id</string>
+    <string name="distributorNo">"Distributor ID: "</string>
+    <string name="DistributorLoc">Branch: </string>
+</resources>
